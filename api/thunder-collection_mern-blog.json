@@ -1,0 +1,179 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mern-blog",
+    "dateExported": "2023-10-25T18:20:47.906Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "41162af7-bc47-4dd3-a4ff-4e606e3b5b89",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Register User",
+            "url": "http://localhost:4000/api/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-17T22:04:33.610Z",
+            "modified": "2023-10-17T22:26:23.965Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"anniel\",\n  \"password\": \"anniel\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1549aaf6-0a1f-4bca-ab31-6d48832a4c82",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Login User",
+            "url": "http://localhost:4000/api/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-18T18:32:21.023Z",
+            "modified": "2023-10-18T18:38:55.199Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"anniel\",\n  \"password\": \"anniel\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2930fe59-67d8-4441-84e7-9ab902463552",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Get User Profile",
+            "url": "http://localhost:4000/api/profile",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-19T04:18:28.804Z",
+            "modified": "2023-10-19T04:18:43.979Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7c7d8c72-f339-4d43-9d39-ec13a180d3aa",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Logout User",
+            "url": "http://localhost:4000/api/logout",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-10-19T16:23:21.851Z",
+            "modified": "2023-10-19T16:23:38.668Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "03384103-1a36-4f04-96eb-c2c4f31b25fb",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Create Post",
+            "url": "http://localhost:4000/api/post",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-10-20T12:58:36.078Z",
+            "modified": "2023-10-25T18:01:05.936Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "test1"
+                    },
+                    {
+                        "name": "summary",
+                        "value": "test1"
+                    },
+                    {
+                        "name": "content",
+                        "value": "test1"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "file",
+                        "value": "c:\\Users\\THE-TWIN\\Downloads\\Best-times-to-post-2022_BTTP-Social-Media.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1990a60f-593e-44bd-bded-7776440f573f",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Get All Posts",
+            "url": "http://localhost:4000/api/post",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-10-21T04:41:24.669Z",
+            "modified": "2023-10-21T04:42:01.729Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a30a9d8-46a3-4545-81c3-a5af7857d3af",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Get Post",
+            "url": "http://localhost:4000/api/post/653736574e8344a9717933f7",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-10-24T04:25:37.391Z",
+            "modified": "2023-10-24T04:27:16.219Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "eb298420-d19b-4f5d-b26f-4cd1a9c368f5",
+            "colId": "175facd1-0c86-4bc3-8910-fc1840521607",
+            "containerId": "",
+            "name": "Update Post",
+            "url": "http://localhost:4000/api/post/6539582196b17d63ac55adc3",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-10-25T17:53:34.477Z",
+            "modified": "2023-10-25T18:06:20.849Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "test1.2"
+                    },
+                    {
+                        "name": "summary",
+                        "value": "test1.2"
+                    },
+                    {
+                        "name": "content",
+                        "value": "test1.2"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "file",
+                        "value": "c:\\Users\\THE-TWIN\\Downloads\\Instagram-post-size-1-1024x536.png"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
